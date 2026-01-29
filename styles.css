@@ -1,0 +1,56 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 50px;
+}
+
+/* Header title */
+header h1 {
+    color: #ff6600;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.main-image {
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #ff6600;
+}
+
+/* TikTok link button */
+.tiktok-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #25f4ee;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.tiktok-link:hover {
+    transform: scale(1.1);
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
